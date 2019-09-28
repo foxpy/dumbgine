@@ -42,6 +42,8 @@ wget -O ~/games/dumbgame.zip https://whatever.wherever/something/dumbgame.zip
 dumbgine ~/games/dumbgame.zip
 ```
 
+Read a full set of ideas [here](/IDEA.md)...
+
 ## I don't like it!
 
 Well, looks ike you have to skip this repository.
