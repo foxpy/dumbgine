@@ -42,7 +42,8 @@ wget -O ~/games/dumbgame.zip https://whatever.wherever/something/dumbgame.zip
 dumbgine ~/games/dumbgame.zip
 ```
 
-Read a full set of ideas [here](/IDEA.md)...
+Read a full set of ideas [here](/IDEA.md)...  
+Also read game directory/archive structure [here](/STRUCTURE.md)...
 
 ## I don't like it!
 
