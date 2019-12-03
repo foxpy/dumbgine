@@ -1,5 +1,6 @@
 #include <string>
 #include <stdexcept>
+#include <cstdint>
 #include <zip.h>
 
 #include "zip.hpp"
@@ -13,8 +14,14 @@ Zip::Zip(std::string &path) {
 		if (errorp == ZIP_ER_NOENT) throw std::invalid_argument(strerror);
 		else throw std::runtime_error(strerror);
 	}
+
+	num_files = zip_get_num_entries(zip, 0);
 }
 
 Zip::~Zip() {
 	zip_discard(zip);
+}
+
+std::int64_t Zip::length() {
+	return static_cast<std::int64_t>(num_files);
 }
