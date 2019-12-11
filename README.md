@@ -42,8 +42,11 @@ wget -O ~/games/dumbgame.zip https://whatever.wherever/something/dumbgame.zip
 dumbgine ~/games/dumbgame.zip
 ```
 
-Read a full set of ideas [here](/IDEA.md)...  
-Also read game directory/archive structure [here](/STRUCTURE.md)...
+Currently there is a [compilation guide](/md/BUILDING.md) which should be
+updated to indicate build instructions for `master` branch.
+
+Read a full set of ideas [here](/md/IDEA.md)...  
+Also read game directory/archive structure [here](/md/STRUCTURE.md)...
 
 ## I don't like it!
 
