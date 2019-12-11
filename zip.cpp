@@ -5,7 +5,7 @@
 
 #include "zip.hpp"
 
-Zip::Zip(std::string &path) {
+Zip::Zip(const std::string &path) {
 	int errorp;
 	if ((zip = zip_open(path.c_str(), ZIP_RDONLY, &errorp)) == NULL) {
 		zip_error_init_with_code(&ze, errorp);

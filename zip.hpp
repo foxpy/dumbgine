@@ -12,7 +12,7 @@ class Zip {
 		zip_int64_t num_files;
 
 	public:
-		Zip(std::string &path);
+		Zip(const std::string &path);
 		~Zip();
 
 		std::int64_t length();
