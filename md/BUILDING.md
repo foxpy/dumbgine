@@ -1,28 +1,26 @@
 # Building
 
-Compilation guide
-
 ## Supported platforms
 
 dumbgine is intended to run on Windows and GNU/Linux operating systems.
-I have set myself a requirement to support Windows 10 Versions 1607
+I have set myself a requirement to support Windows 10 Version 1607
 (Anniversary Update) and newer.
 
 With GNU/Linux it becomes slightly complicated since there is no universal
 way to version GNU/Linux distros. I also don't want to claim support for
-fixed versions of Ubuntu, Devian, Red Hat, whatever. Supporting just
+fixed versions of Ubuntu, Debian, Red Hat, whatever. Supporting just
 ArchLinux doesn't sound good, too. Since I can't claim which distros are
 supported and which are not let's just say dumbgine should work in any
-adequate modern GNU/Linux distro. e. g.:
-ArchLinux - good;
-Debian 9/10 - good;
-Ubuntu 18/19 - good;
-Alpine 3 - not even sure.. good if it works;
+adequate modern GNU/Linux distro. e. g.:  
+ArchLinux - good;  
+Debian 9/10 - good;  
+Ubuntu 18/19 - good;  
+Alpine 3.9 - not even sure.. good if it works;  
 Slackware 4.0 - not a chance. :D
 
 No MacOS support intended, but if it compiles in GNU/Linux it should compile
 in MacOS, too, I guess? I honestly don't have hardware and will to
-support MacOS.
+support MacOS but of course it is nice to have it supported.
 
 ## Supported hardware
 
@@ -53,7 +51,7 @@ or `freeglut`.
 ### Linux
 
 ```bash
-git clone https://github.com/foxpy/dumbgine.git
+git clone "https://github.com/foxpy/dumbgine.git"
 cd dumbgine
 mkdir -p build && cd build
 cmake ..
@@ -65,7 +63,7 @@ cmake --build .
 ### Windows
 
 ```powershell
-git clone https://github.com/foxpy/dumbgine.git
+git clone "https://github.com/foxpy/dumbgine.git"
 ```
 or download ZIP file from GitHub and unpack it manually.
 Open folder in Visual Studio 2019 (currently the only tested version),
