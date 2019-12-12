@@ -1,1 +1,6 @@
+# Build directory I use on Linux
 build/
+
+# Vistual Studio stuff
+.vs/
+out/
