@@ -38,6 +38,7 @@ hardware, right?
 
 ## Additional features
 It would be awesome to implement:
+- demos support (record, play, render to RGB/YUV)
 - gamepad input
 - OpenAL 3D sound
 - built-in UDP networking with reliable and unreliable messages
